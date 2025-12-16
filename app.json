@@ -20,8 +20,8 @@
       "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/logo-circular-remove.png",
-      "router": {
-        "baseUrl": "/allinnovaassistclean"
+      "html": {
+        "publicPath": "/"
       }
     },
     "extra": {
