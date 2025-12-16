@@ -4,12 +4,20 @@
     "slug": "allinnovaassistclean",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/images/logo-circular-remove.png",
     "scheme": "allinnovaassistclean",
     "ios": {
       "supportsTablet": true
     },
     "android": {
-      "package": "com.natalia.g0807.allinnovaassistclean"
+      "package": "com.natalia.g0807.allinnovaassistclean",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo-circular-remove.png",
+        "backgroundColor": "#E6F4FE"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/logo-circular-remove.png"
     },
     "extra": {
       "eas": {
