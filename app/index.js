@@ -1,7 +1,8 @@
 import { Link, router, Stack } from "expo-router";
 import { useState } from "react";
 import { Image, Modal, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
-import imagenLogo from "./imagenes/logo-circular-remove.png";
+const imagenLogo = require("../assets/images/logo-circular-remove.png");
+
 export default function Inicio() {
     const [modalVisible, setModalVisible] = useState(false);
     const [email, setEmail] = useState("");
