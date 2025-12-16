@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "AllInnovaAssistClean",
+    "name": "All Innova Assist",
     "slug": "allinnovaassistclean",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,6 +10,12 @@
     },
     "android": {
       "package": "com.natalia.g0807.allinnovaassistclean"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dfa0abfb-f261-49ec-857e-a9d3892c9431"
+      }
+    },
+    "owner": "natalia.g0807"
   }
 }
